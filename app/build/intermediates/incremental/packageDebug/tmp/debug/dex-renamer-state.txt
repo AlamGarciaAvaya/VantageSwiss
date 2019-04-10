@@ -1,0 +1,10 @@
+#Wed Apr 10 16:33:17 CDT 2019
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=C\:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+base.1=C\:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+base.0=C\:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
