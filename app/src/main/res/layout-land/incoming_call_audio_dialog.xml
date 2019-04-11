@@ -22,15 +22,28 @@
         <TextView
             android:id="@+id/title"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="84dp"
             android:layout_alignParentTop="true"
-            android:gravity="center"
-            android:textSize="28dp"
             android:layout_margin="0dp"
-            android:textColor="#425064"
-            android:textStyle="bold"
             android:background="@drawable/rounded_top_incoming_call_popup"
-            android:text="@string/incoming_content_description"/>
+            android:gravity="center"
+            android:text="@string/incoming_content_description"
+            android:textColor="#425064"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/incoming_dialog_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/title"
+            android:layout_alignTop="@id/title"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="0dp"
+            android:text="No subject"
+            android:textSize="24sp" />
 
         <View
             android:layout_width="match_parent"

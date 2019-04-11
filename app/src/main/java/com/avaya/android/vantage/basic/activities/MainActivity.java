@@ -920,22 +920,15 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
             try {
                 mensaje = obj.getString("message");
                 MediaPlayer mediaPlayer = new MediaPlayer();
-
                 mediaPlayer.setWakeMode(getApplicationContext(), PowerManager.PARTIAL_WAKE_LOCK);
-
-
                 mediaPlayer.setOnErrorListener((mp, what, extra) -> {
                     mp.reset();
                     return false;
                 });
-
                 mediaPlayer.setOnPreparedListener(MediaPlayer::start);
-
                 try {
-
                     mediaPlayer.setDataSource(mensaje);
                     mediaPlayer.prepareAsync();
-
                 } catch (IllegalArgumentException e) {
                 } catch (IllegalStateException e) {
                 } catch (IOException e) {
@@ -949,22 +942,18 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
                 mensaje = obj.getString("message");
                 runOnUiThread(() -> new DownloadImageTask((ImageView) findViewById(R.id.brand))
                         .execute(mensaje));
-
             } catch (JSONException e) {
                 e.printStackTrace();
             }
         }).on("tts", args -> {
             idiomadevice = Locale.getDefault().getLanguage();
-
             OkHttpClient client = new OkHttpClient();
-
             final JSONObject obj = (JSONObject) args[0];
             try {
                 mensaje = obj.getString("message");
                 Request request = new Request.Builder()
                         .url("https://translation.googleapis.com/language/translate/v2?key=AIzaSyDx8TusPEiEp3_3VLACgwwb974Z_mWBRDk&q="+mensaje+"&target="+idiomadevice+"")
                         .build();
-
                 Response response = client.newCall(request).execute();
                 final JSONObject jsonObject = new JSONObject(response.body().string());
                 Log.d("JSON", mensaje);
@@ -981,7 +970,6 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
                         e.printStackTrace();
                     }
                     mRecyclerView.smoothScrollToPosition(0);
-
                 });
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -991,11 +979,8 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
 
 
         }).on("p2p", args -> {
-
             JSONObject obj = (JSONObject)args[0];
-
             try {
-
                 PowerManager pm = (PowerManager)MainActivity.this.getSystemService(Context.POWER_SERVICE);
                 boolean isScreenOn = pm.isScreenOn();
                 if(isScreenOn==false)
@@ -1003,11 +988,9 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
                     PowerManager.WakeLock wl = pm.newWakeLock(PowerManager.FULL_WAKE_LOCK |PowerManager.ACQUIRE_CAUSES_WAKEUP |PowerManager.ON_AFTER_RELEASE,"MyLock");
                     wl.acquire(10000);
                     PowerManager.WakeLock wl_cpu = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,"MyCpuLock");
-
                     wl_cpu.acquire(10000);
                 }
                 ttstext = obj.getString("message");
-
                 String resourceScheme = "res";
                 Uri uri = new Uri.Builder()
                         .scheme(resourceScheme)
@@ -1020,11 +1003,9 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
                 mBuilder.setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
                 mBuilder.setSound(uri);
 
-
                 Intent notificationIntent = new Intent(MainActivity.this.getApplicationContext(), MainActivity.class);
                 PendingIntent contentIntent = PendingIntent.getActivity(MainActivity.this.getApplicationContext(), 0, notificationIntent,
                         PendingIntent.FLAG_UPDATE_CURRENT);
-
                 mBuilder.setContentIntent(contentIntent);
 
                 // Add as notification
@@ -1033,7 +1014,6 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-
             try {
                 ttslang = obj.getString("extra");
                 ttstext = obj.getString("message");
@@ -1042,10 +1022,7 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
                         .scheme(resourceScheme)
                         .path(String.valueOf(R.raw.dingo))
                         .build();
-
-
                 OkHttpClient client = new OkHttpClient();
-
                 Request request = new Request.Builder()
                         .url("https://translation.googleapis.com/language/translate/v2?key=AIzaSyDx8TusPEiEp3_3VLACgwwb974Z_mWBRDk&q="+ttstext+"&target="+ttslang+"")
                         .build();
@@ -1059,14 +1036,10 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
                 mBuilder.setPriority(NotificationCompat.PRIORITY_MAX);
                 mBuilder.setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
                 mBuilder.setSound(uri);
-
-
                 Intent notificationIntent = new Intent(MainActivity.this.getApplicationContext(), MainActivity.class);
                 PendingIntent contentIntent = PendingIntent.getActivity(MainActivity.this.getApplicationContext(), 0, notificationIntent,
                         PendingIntent.FLAG_UPDATE_CURRENT);
-
                 mBuilder.setContentIntent(contentIntent);
-
                 // Add as notification
                 NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
                 manager.notify(1, mBuilder.build());
@@ -1074,9 +1047,7 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
                     @Override
                     public void onInit(int status) {
                         if (status == TextToSpeech.SUCCESS) {
-
                             int ttsLang = textToSpeech.setLanguage(Locale.forLanguageTag(ttslang));
-
                             if (ttsLang == TextToSpeech.LANG_MISSING_DATA
                                     || ttsLang == TextToSpeech.LANG_NOT_SUPPORTED) {
                                 Log.e("TTS", "The Language is not supported!");
@@ -1098,8 +1069,6 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
                         }
                     }
                 });
-
-
             } catch (JSONException | IOException e) {
                 e.printStackTrace();
             }
@@ -1117,11 +1086,9 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
     protected void onStop() {
         super.onStop();
         unregisterReceiver(mBroadcastReceiver);
-
         if(finishCallDialerActivityReciver!=null)
             unregisterReceiver(finishCallDialerActivityReciver);
     }
-
     public boolean isAccessibilityEnabled;
     public boolean isExploreByTouchEnabled;
 

@@ -105,7 +105,7 @@ public class IncomingCallFragment extends DialogFragment {
     }
 
     public boolean isDismissed() {
-       return mIsDismissed;
+        return mIsDismissed;
     }
 
     /**
@@ -118,12 +118,15 @@ public class IncomingCallFragment extends DialogFragment {
 
         TextView incomingName = (TextView) view.findViewById(R.id.incoming_dialog_name);
         TextView incomingNumber = (TextView) view.findViewById(R.id.incoming_dialog_number);
+        TextView incomingSubject = (TextView) view.findViewById(R.id.incoming_dialog_subject);
 
         String contactName = Utils.getContactName(call.getRemoteNumber(), mCallViewAdaptor.getRemoteDisplayName(call.getCallId()), mCallViewAdaptor.isCMConferenceCall(call.getCallId()));
         if (incomingName != null)
             incomingName.setText(contactName);
         if (incomingNumber !=null)
             incomingNumber.setText(call.getRemoteNumber());
+        if (incomingSubject !=null)
+            incomingSubject.setText(call.getSubject());
 
         boolean isVideo =  call.isVideo() && SDKManager.getInstance().getDeskPhoneServiceAdaptor().isVideoEnabled();
         setListeners(view, call.getCallId(), isVideo);
@@ -212,7 +215,7 @@ public class IncomingCallFragment extends DialogFragment {
                     if((MainActivity)getActivity()!=null) {
                         ((MainActivity) getActivity()).changeUiForFullScreenInLandscape(true);
                     }
-                 }
+                }
             }
         }
 
@@ -297,17 +300,17 @@ public class IncomingCallFragment extends DialogFragment {
         }
         if (searchResult != null && searchResult.length > 2 && searchResult[3] != null && searchResult[3].trim().length() > 0){
             Uri photoURI = Uri.parse(searchResult[3]);
-                try {
-                    Bitmap uriImage = MediaStore.Images.Media.getBitmap(getContext().getContentResolver(), photoURI);
-                    RoundedBitmapDrawable contactThumbnail =
-                            RoundedBitmapDrawableFactory.create(getResources(), uriImage);
-                    contactThumbnail.setCircular(true);
-                    incomingImage.setBackground(contactThumbnail);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+            try {
+                Bitmap uriImage = MediaStore.Images.Media.getBitmap(getContext().getContentResolver(), photoURI);
+                RoundedBitmapDrawable contactThumbnail =
+                        RoundedBitmapDrawableFactory.create(getResources(), uriImage);
+                contactThumbnail.setCircular(true);
+                incomingImage.setBackground(contactThumbnail);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         } else {
-                incomingImage.setImageResource(R.drawable.ic_avatar_generic);
+            incomingImage.setImageResource(R.drawable.ic_avatar_generic);
         }
     }
 
@@ -317,9 +320,9 @@ public class IncomingCallFragment extends DialogFragment {
     private void setupFullscreen() {
         if (mView != null) {
             mView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-                | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
-                | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION);
+                    | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                    | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+                    | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION);
         }
     }
 

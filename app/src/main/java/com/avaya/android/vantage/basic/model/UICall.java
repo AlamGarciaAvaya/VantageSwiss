@@ -10,7 +10,7 @@ public class UICall {
 
     final private int mCallId;
     private UICallState mCallState;
-    final private String mRemoteDisplayName, mRemoteNumber;
+    final private String mRemoteDisplayName, mRemoteNumber, mSubject;
     private final boolean mIsVideo;
     private final boolean mIsEmergency;
     private long mEstablishedTimeMillis, mHeldTimeMillis;
@@ -20,6 +20,7 @@ public class UICall {
             UICallState state,
             String remoteDisplayName,
             String remoteNumber,
+            String subject,
             boolean isVideo,
             boolean isEmergency,
             long establishedTimeMillis,
@@ -29,6 +30,7 @@ public class UICall {
         mCallState = state;
         mRemoteDisplayName = remoteDisplayName;
         mRemoteNumber = remoteNumber;
+        mSubject = subject;
         mIsVideo = isVideo;
         mIsEmergency = isEmergency;
         mEstablishedTimeMillis = establishedTimeMillis;
@@ -54,6 +56,8 @@ public class UICall {
     public String getRemoteNumber() {
         return mRemoteNumber;
     }
+
+    public String getSubject() {return mSubject;}
 
     public boolean isEmergency() {
         return mIsEmergency;

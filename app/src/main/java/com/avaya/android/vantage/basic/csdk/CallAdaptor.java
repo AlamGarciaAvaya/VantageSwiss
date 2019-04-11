@@ -379,6 +379,13 @@ public class CallAdaptor implements CallListener, CallServiceListener, CallFeatu
             addVideo(call);
         }
 
+        //Se agrega el asunto
+        String subject;
+        SharedPreferences preferences = mContext.getSharedPreferences("SUBJECT", MODE_PRIVATE);
+        call.setSubject(preferences.getString("subj_string",""));
+
+        //Fin
+
         call.start();
 
         mOffHookDialCall = call;
@@ -420,6 +427,13 @@ public class CallAdaptor implements CallListener, CallServiceListener, CallFeatu
             // Add video to the call
             addVideo(call);
         }
+        //Se agrega el asunto
+        String subject;
+        SharedPreferences preferences = mContext.getSharedPreferences("SUBJECT", MODE_PRIVATE);
+        call.setSubject(preferences.getString("subj_string",""));
+
+        //Fin
+
         call.start();
     }
 
@@ -882,7 +896,7 @@ public class CallAdaptor implements CallListener, CallServiceListener, CallFeatu
 
     /**
      * @param callId ID of Call
-     * @return true if this is a conference 
+     * @return true if this is a conference
      */
     public boolean isConferenceCall(int callId) {
         Call call = getCallByCallId(callId);
@@ -1186,9 +1200,9 @@ public class CallAdaptor implements CallListener, CallServiceListener, CallFeatu
      */
     private UICall convertCall(Call call, boolean isVideo) {
         if (call != null) {
-            return new UICall(call.getCallId(), convertCallState(call), call.getRemoteDisplayName(), call.getRemoteNumber(), isVideo, call.isEmergencyCall(), call.getEstablishedTimeMillis(), call.getHeldTimeMillis());
+            return new UICall(call.getCallId(), convertCallState(call), call.getRemoteDisplayName(), call.getRemoteNumber(), call.getSubject() , isVideo, call.isEmergencyCall(), call.getEstablishedTimeMillis(), call.getHeldTimeMillis());
         } else {
-            return new UICall(-1, UICallState.NOT_RELEVANT, "", "", false, false, 0, 0);
+            return new UICall(-1, UICallState.NOT_RELEVANT, "", "", "",false, false, 0, 0);
         }
     }
 
@@ -1215,7 +1229,7 @@ public class CallAdaptor implements CallListener, CallServiceListener, CallFeatu
 
 
 
-        return new UICall(call.getCallId(), convertCallState(call), call.getRemoteDisplayName(), call.getRemoteNumber(), isVideo, call.isEmergencyCall(), call.getEstablishedTimeMillis(), call.getHeldTimeMillis());
+        return new UICall(call.getCallId(), convertCallState(call), call.getRemoteDisplayName(), call.getRemoteNumber(), call.getSubject() , isVideo, call.isEmergencyCall(), call.getEstablishedTimeMillis(), call.getHeldTimeMillis());
     }
 
     public boolean isIncomingCall(int callId) {
@@ -1708,6 +1722,7 @@ public class CallAdaptor implements CallListener, CallServiceListener, CallFeatu
 
     @Override
     public void onIncomingCallReceived(CallService callService, final Call call) {
+
         Log.d(LOG_TAG, getCurrentMethodName() + " " + call.getCallId() + ", Name: " + call.getRemoteDisplayName() + ", Number: " + call.getRemoteNumber());
         if (call.isRemote()) {
             if(!handleBridgeIncomingCall(callService, call))
@@ -2215,7 +2230,7 @@ public class CallAdaptor implements CallListener, CallServiceListener, CallFeatu
     public void restoreCalls() {
 
         // if no user is login - no sense to any existing calls
-       if (SDKManager.getInstance().getDeskPhoneServiceAdaptor().isAnonymous()) {
+        if (SDKManager.getInstance().getDeskPhoneServiceAdaptor().isAnonymous()) {
             return;
         }
 

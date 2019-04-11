@@ -79,6 +79,14 @@
             android:textColor="@color/colorSubGrey"
             android:textSize="20sp" />
 
+        <TextView
+            android:id="@+id/incoming_dialog_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="TextView"
+            android:textSize="24sp" />
+
         <LinearLayout
             android:id="@+id/incoming_layout"
             android:layout_width="wrap_content"
@@ -110,6 +118,7 @@
                 android:layout_height="64dp"
                 android:background="@drawable/rounded_decline_call"
                 android:contentDescription="@string/end_call_content_description"/>
+
         </LinearLayout>
 
     </RelativeLayout>

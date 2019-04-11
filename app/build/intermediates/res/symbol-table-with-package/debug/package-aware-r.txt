@@ -1361,7 +1361,8 @@ id dismiss
 id display
 id dont_show_again
 id dtmf
-id editText
+id editText2
+id editText3
 id edit_address_frame
 id edit_company_frame
 id edit_contact_frame
@@ -1447,6 +1448,7 @@ id incoming_dialog
 id incoming_dialog_image
 id incoming_dialog_name
 id incoming_dialog_number
+id incoming_dialog_subject
 id incoming_layout
 id incoming_matched_dialog
 id incoming_video1

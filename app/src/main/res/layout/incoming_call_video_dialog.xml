@@ -52,6 +52,13 @@
             android:textColor="@color/colorSubGrey"
             android:textSize="27sp" />
 
+        <TextView
+            android:id="@+id/incoming_dialog_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="24sp" />
+
         <LinearLayout
             android:id="@+id/incoming_layout"
             android:layout_width="match_parent"

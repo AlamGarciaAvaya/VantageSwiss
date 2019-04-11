@@ -16,6 +16,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.HorizontalScrollView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -75,13 +76,14 @@ public class DialerFragment extends android.support.v4.app.Fragment implements C
 
     public static final int DELAY = 0;
     public static final int PERIOD = 60*1000;
-//    private Handler mHandler;
+    //    private Handler mHandler;
     private ToggleButton mVoicemail;
     private UIContactsViewAdaptor mUIContactsAdaptor;
     private String mFoundNumber = "";
     private String mPhoneType;
     private ImageButton mAudioButton;
     private ImageButton mRedialButton;
+    private  EditText mSubject;
 
     public ToggleButton transducerButton;
     public ToggleButton offHook;
@@ -97,7 +99,7 @@ public class DialerFragment extends android.support.v4.app.Fragment implements C
     private ImageView mDelete, mVideoCall;
 
     private OnDialerInteractionListener mListener;
-//    private String mCurrentDate = "";
+    //    private String mCurrentDate = "";
 //    private String mCurrentTime = "";
     private Timer mDisplayTimer;
     private HorizontalScrollView mTextScroll;
@@ -429,7 +431,7 @@ public class DialerFragment extends android.support.v4.app.Fragment implements C
 
         mAudioButton = (ImageButton) root.findViewById(R.id.audioButton);
         mVideoCall = (ImageView) root.findViewById(R.id.contact_item_call_video);
-
+        mSubject = (EditText) root.findViewById(R.id.editText3);
         if(getResources().getBoolean(R.bool.is_landscape) == true) {
 
             transducerButton = (ToggleButton)  root.findViewById(R.id.transducer_button);
@@ -462,7 +464,7 @@ public class DialerFragment extends android.support.v4.app.Fragment implements C
         }
 
 
-            int visibility = Utils.isCameraSupported() ? View.VISIBLE : View.GONE;
+        int visibility = Utils.isCameraSupported() ? View.VISIBLE : View.GONE;
         setVideoButtonVisibility(visibility);
 
         enableVideo(SDKManager.getInstance().getDeskPhoneServiceAdaptor().isVideoEnabled());
@@ -471,6 +473,7 @@ public class DialerFragment extends android.support.v4.app.Fragment implements C
             @Override
             public void onClick(View v) {
                 String dialPattern;
+
                 /*if (SDKManager.getInstance().getDeskPhoneServiceAdaptor().getConfigBooleanParam(ConfigParametersNames.ENABLE_IPOFFICE))
                 /*String dialPattern;
                 if (SDKManager.getInstance().getDeskPhoneServiceAdaptor().getConfigBooleanParam(ConfigParametersNames.ENABLE_IPOFFICE))
@@ -478,10 +481,23 @@ public class DialerFragment extends android.support.v4.app.Fragment implements C
                 else
                     dialPattern = AURA_AUDIO_DIAL_PATTERN;*/
                 if (mNumber.length() > 0 /*&& mNumber.matches(dialPattern)*/) {
+
+
+                    //Agregar asunto en sharedPreference
+                    SharedPreferences mPrefs;
+                    mPrefs =  getActivity().getSharedPreferences("SUBJECT", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = mPrefs.edit();
+                    editor.putString("subj_string",mSubject.getText().toString());
+                    editor.apply();
+
+                    //Fin
                     doAction(mNumber, ACTION.AUDIO);
                     GoogleAnalyticsUtils.logEvent(GoogleAnalyticsUtils.Event.CALL_FROM_DIALER_EVENT);
                 } else if (mNumber.length() == 0 && enableRedial) {
                     String redialNumber = mSharedPref.getString(REDIAL_NUMBER, "");
+
+
+
                     if (redialNumber.length() > 0) {
                         mNumber = redialNumber;
                         getFirstContact(mNumber);
@@ -947,7 +963,17 @@ public class DialerFragment extends android.support.v4.app.Fragment implements C
                 @Override
                 public void onClick(View v) {
                     if (mNumber.length() > 0 /*&& mNumber.matches(VIDEO_DIAL_PATTERN)*/) {
+                        //Agregar Asunto en SharedPreference
+                        SharedPreferences mPrefs;
+                        mPrefs =  getActivity().getSharedPreferences("SUBJECT", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = mPrefs.edit();
+                        editor.putString("subj_string",mSubject.getText().toString());
+                        editor.apply();
+                        //Fin
+
                         doAction(mNumber, ACTION.VIDEO);
+
+
                         GoogleAnalyticsUtils.logEvent(GoogleAnalyticsUtils.Event.CALL_FROM_DIALER_EVENT);
                     } else if (mNumber.length() == 0 && enableRedial) {
                         String redialNumber = mSharedPref.getString(REDIAL_NUMBER, "");

@@ -30,9 +30,9 @@ public final class R {
         private id() {}
 
         public static final int bottom = 0x7f0a003e;
-        public static final int left = 0x7f0a0156;
-        public static final int right = 0x7f0a01cf;
-        public static final int top = 0x7f0a0229;
+        public static final int left = 0x7f0a0158;
+        public static final int right = 0x7f0a01d1;
+        public static final int top = 0x7f0a022b;
     }
     public static final class styleable {
         private styleable() {}

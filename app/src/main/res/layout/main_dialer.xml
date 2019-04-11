@@ -16,53 +16,65 @@
         android:layout_alignParentTop="true" />
 
     <include
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/keypad"
         layout="@layout/dialpad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="107dp"
-        android:layout_marginRight="107dp"
-        android:layout_below="@+id/display"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="64dp" />
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="107dp" />
 
-    <LinearLayout
+    <EditText
+        android:id="@+id/editText3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_below="@+id/display"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Subject:" />
+
+    <LinearLayout
+        android:id="@+id/call_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/keypad"
+        android:layout_alignStart="@+id/keypad"
+        android:layout_alignEnd="@+id/keypad"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
         android:baselineAligned="false"
         android:measureWithLargestChild="false"
-        android:id="@+id/call_controls"
-        android:layout_below="@+id/keypad"
-        android:layout_alignEnd="@+id/keypad"
-        android:layout_alignStart="@+id/keypad"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="56dp"
-        android:layout_marginBottom="16dp"
-        android:layout_centerHorizontal="true">
+        android:orientation="horizontal">
 
-            <ImageButton
-                android:layout_weight="1"
-                android:layout_width="154dp"
-                android:layout_height="64dp"
-                android:id="@+id/audioButton"
-                android:src="@drawable/dialer_audio"
-                android:background="?android:attr/selectableItemBackgroundBorderless"
-                android:layout_marginLeft="19dp"
-                android:layout_marginBottom="16dp"
-                android:contentDescription="@string/audio_call_content_description"/>
+        <ImageButton
+            android:id="@+id/audioButton"
+            android:layout_width="154dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/audio_call_content_description"
+            android:src="@drawable/dialer_audio" />
 
-            <ImageButton
-                android:layout_weight="1"
-                android:layout_width="154dp"
-                android:layout_height="64dp"
-                android:id="@+id/contact_item_call_video"
-                android:background="?android:attr/selectableItemBackgroundBorderless"
-                android:src="@drawable/dialer_video"
-                android:layout_marginBottom="16dp"
-                android:layout_marginRight="19dp"
-                android:contentDescription="@string/video_call_content_description"/>
+        <ImageButton
+            android:id="@+id/contact_item_call_video"
+            android:layout_width="154dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/video_call_content_description"
+            android:src="@drawable/dialer_video" />
 
     </LinearLayout>
 

@@ -15,5 +15,5 @@ public final class BuildConfig {
   public static final String AVAYA_VERSION = "2.0.0";
   public static final String CSDK_VERSION = "286.0.30";
   public static final String USER_AGENT_NAME = "Avaya Vantage Basic";
-  public static final java.util.Date buildTime = new java.util.Date(1554931904267L);
+  public static final java.util.Date buildTime = new java.util.Date(1555001897935L);
 }
