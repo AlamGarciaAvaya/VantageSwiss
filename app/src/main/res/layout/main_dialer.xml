@@ -39,6 +39,19 @@
         android:inputType="textPersonName"
         android:text="Subject:" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/call_controls"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/call_controls"
+        android:text="TextView"
+        android:textSize="9sp" />
+
     <LinearLayout
         android:id="@+id/call_controls"
         android:layout_width="match_parent"

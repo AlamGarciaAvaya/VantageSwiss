@@ -3,6 +3,8 @@ package com.avaya.android.vantage.basic.fragments;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
@@ -41,6 +43,7 @@ import com.avaya.android.vantage.basic.fragments.settings.ConfigChangeApplier;
 import com.avaya.android.vantage.basic.model.CallData;
 import com.avaya.android.vantage.basic.model.ContactData;
 import com.avaya.android.vantage.basic.model.UICall;
+import com.avaya.clientservices.client.Client;
 
 import java.lang.ref.WeakReference;
 import java.text.DateFormat;
@@ -84,7 +87,7 @@ public class DialerFragment extends android.support.v4.app.Fragment implements C
     private ImageButton mAudioButton;
     private ImageButton mRedialButton;
     private  EditText mSubject;
-
+    private TextView labelinfo;
     public ToggleButton transducerButton;
     public ToggleButton offHook;
     private OffHookTransduceButtonInterface mCallback;
@@ -249,6 +252,9 @@ public class DialerFragment extends android.support.v4.app.Fragment implements C
                 }
             }
         });
+
+
+
     }
 
     /**
@@ -356,6 +362,16 @@ public class DialerFragment extends android.support.v4.app.Fragment implements C
         TableLayout dialerGrid = (TableLayout) root.findViewById(R.id.activity_dialer_pad);
         String[] digits = getResources().getStringArray(R.array.dialer_numbers);
         String[] letters = getResources().getStringArray(R.array.dialer_letters);
+        try {
+            PackageManager manager = getActivity().getPackageManager();
+            PackageInfo info = manager.getPackageInfo(getActivity().getPackageName(), PackageManager.GET_ACTIVITIES);
+            TextView myAwesomeTextView = (TextView)root.findViewById(R.id.textView4);
+            myAwesomeTextView.setText(String.valueOf(info.versionName + "\n" + Client.getVersion()));
+
+
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
 
         // dialpad buttons ID's
         int buttonIds[] = {
@@ -543,6 +559,8 @@ public class DialerFragment extends android.support.v4.app.Fragment implements C
                 }
             });
         }
+
+
         return root;
     }
 

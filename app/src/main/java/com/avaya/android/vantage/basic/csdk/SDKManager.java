@@ -31,6 +31,8 @@ public class SDKManager implements  ClientListener {
     private VoiceMessageAdaptor   mVoiceMessageAdaptor;
     private AudioDeviceAdaptor    mAudioDeviceAdaptor;
     private boolean mIsCameraSupported;
+    public String VersionSDK ;
+    private Object Client;
 
     private SDKManager() {
         Log.d(LOG_TAG, "In constructor of SDKManager");
@@ -85,6 +87,9 @@ public class SDKManager implements  ClientListener {
      * @return {@link Client}
      */
     public Client getClient() { return getDeskPhoneServiceAdaptor().getClient(); }
+
+
+
 
     /**
      * Obtain {@link CallAdaptor}

@@ -2,20 +2,20 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_dialer_root"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@drawable/dialer_display_bg">
 
-    <ImageButton
-        android:id="@+id/audioButton"
-        android:layout_width="134dp"
-        android:layout_height="64dp"
-        android:layout_below="@+id/display"
-        android:layout_marginLeft="210dp"
-        android:layout_marginRight="2dp"
-        android:background="?android:attr/selectableItemBackgroundBorderless"
-        android:contentDescription="@string/audio_call_content_description"
-        android:src="@drawable/dialer_audio" />
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/audioButton"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Asunto"
+        android:inputType="textPersonName"
+        android:text="" />
 
     <ImageButton
         android:id="@+id/contact_item_call_video"
@@ -30,23 +30,22 @@
         android:src="@drawable/dialer_video" />
 
 
-
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:hint="Asunto"
-        />
+    <ImageButton
+        android:id="@+id/audioButton"
+        android:layout_width="134dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/display"
+        android:layout_marginLeft="210dp"
+        android:layout_marginRight="2dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/audio_call_content_description"
+        android:src="@drawable/dialer_audio" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_toRightOf="@+id/contact_item_call_video"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/display"
-        android:layout_height="wrap_content">
+        android:layout_toRightOf="@+id/contact_item_call_video">
 
         <ToggleButton
             android:id="@+id/transducer_button"
@@ -66,9 +65,9 @@
             android:id="@+id/off_hook"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
             android:layout_marginEnd="0dp"
             android:layout_marginRight="0dp"
-            android:layout_marginLeft="40dp"
             android:background="@drawable/pc_off_hook"
             android:contentDescription="@string/cd_off_hook"
             android:stateListAnimator="@null"
@@ -76,8 +75,6 @@
             android:textOn="@null"
             android:textSize="0sp"
             android:visibility="visible" />
-
-
 
 
     </RelativeLayout>
@@ -92,6 +89,16 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginStart="0dp"
         android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/display"
+        android:layout_alignBottom="@+id/contact_item_call_video"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="-54dp"
+        android:text="TextView" />
 
 
 </RelativeLayout>

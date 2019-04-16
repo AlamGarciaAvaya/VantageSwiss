@@ -179,6 +179,7 @@ public class DeskPhoneServiceAdaptor implements UserRegistrationListener, Creden
     private ClientConfiguration mClientConfiguration;
     private boolean mLogoutInProgress = false;
     private CallNotificationFactory mNotifFactory;
+    private String SDKVersion;
 
     private static final HashMap<String, Client.LogLevel> mapLogLocalToCsdkLoglevel;
     static  {
@@ -193,6 +194,9 @@ public class DeskPhoneServiceAdaptor implements UserRegistrationListener, Creden
         mapLogLocalToCsdkLoglevel.put("7", Client.LogLevel.INFO);
         mapLogLocalToCsdkLoglevel.put("8", Client.LogLevel.DEBUG);
     }
+
+
+
 
     /**
      * {@link DeskPhoneServiceAdaptor} public constructor
@@ -382,6 +386,7 @@ public class DeskPhoneServiceAdaptor implements UserRegistrationListener, Creden
 
         mClientConfiguration = setupClientConfiguration();
         mClient = new Client(mClientConfiguration, mApplication, SDKManager.getInstance());
+
 
         setLogLevel();
     }

@@ -1361,7 +1361,7 @@ id dismiss
 id display
 id dont_show_again
 id dtmf
-id editText2
+id editText
 id editText3
 id edit_address_frame
 id edit_company_frame
@@ -1660,6 +1660,8 @@ id text4
 id textScroll
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView2
+id textView4
 id textViewAlertDescription
 id textViewAlertTitle
 id text_input_password_toggle

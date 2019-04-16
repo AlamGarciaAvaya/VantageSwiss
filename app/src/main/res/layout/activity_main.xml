@@ -10,11 +10,6 @@
     android:layoutDirection="ltr">
 
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
     <ImageView
         android:id="@+id/brand"
         android:layout_width="142dp"
@@ -27,6 +22,18 @@
         android:layout_marginTop="40dp"/>
 
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/active_call"
+        android:layout_alignEnd="@+id/call_status"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/brand" />
 
     <FrameLayout
         android:id="@+id/user"
@@ -102,14 +109,12 @@
 
     <FrameLayout
         android:id="@+id/call_status"
-        android:layout_width="match_parent"
+        android:layout_width="20dp"
         android:layout_height="56dp"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginStart="@dimen/margin_normal"
-        android:layout_toEndOf="@id/brand"
-        android:layout_toStartOf="@+id/topBarError"
-        android:layout_marginTop="40dp"/>
+        android:layout_toStartOf="@+id/topBarError" />
 
     <android.support.design.widget.CoordinatorLayout
         android:id="@+id/main_content"
@@ -308,5 +313,6 @@
         android:layout_above="@+id/persistent_contrls_container"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="@dimen/margin_normal"
-        android:visibility="visible"/>
+        android:visibility="visible" />
+
 </RelativeLayout>

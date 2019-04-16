@@ -148,12 +148,12 @@
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_incomingcalls.png.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_incomingcalls.png"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_incomingcalls.png.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_incomingcalls.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_mic.png.flat",
@@ -176,12 +176,12 @@
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_call_green48.png.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\ic_call_green48.png"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout_contact_edit_header.xml.flat",
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\layout\\contact_edit_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_call_green48.png.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\ic_call_green48.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_persistent_audioselect_bluetooth.png.flat",
@@ -352,16 +352,16 @@
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_loading_spinner.png"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_vm_active.png.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-mdpi\\ic_vm_active.png"
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_topbar_error.png.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\ic_topbar_error.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_new_call48.png.flat",
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\ic_new_call48.png"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_topbar_error.png.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\ic_topbar_error.png"
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_vm_active.png.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-mdpi\\ic_vm_active.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_recents_selected.png.flat",
@@ -500,12 +500,12 @@
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_midcall_more.png.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_midcall_more.png"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_menu_select_contacts.xml.flat",
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\layout-land\\menu_select_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_midcall_more.png.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_midcall_more.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_favorites_list.xml.flat",
@@ -532,12 +532,12 @@
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pc_off_hook_active.xml.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\pc_off_hook_active.xml"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cursor.png.flat",
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\44045b215a47ec9df273c40e60f63bd8\\res\\drawable\\cursor.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pc_off_hook_active.xml.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\pc_off_hook_active.xml"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_mid_call_more_transparent_bg.xml.flat",
@@ -548,12 +548,12 @@
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\pc_headset_active.xml"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add24.png.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_add24.png"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_audioselect_picker_35mm_disabled.png.flat",
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_audioselect_picker_35mm_disabled.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add24.png.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_add24.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
@@ -576,12 +576,12 @@
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menus_layouts.xml.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\menus_layouts.xml"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menus_layouts.xml.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\menus_layouts.xml"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -608,12 +608,12 @@
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\layout\\fragment_main.xml"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
-        "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ac_dialer_background.xml.flat",
@@ -636,12 +636,12 @@
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-mdpi\\ic_transfer48.png"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_sync_outgoing_grey.png.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_sync_outgoing_grey.png"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_main_dialer.xml.flat",
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\layout-land\\main_dialer.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_sync_outgoing_grey.png.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_sync_outgoing_grey.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tutorial_6.png.flat",
@@ -740,24 +740,24 @@
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-mdpi\\ic_close_white.png"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
-        "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land_dialer_video.xml.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-land\\dialer_video.xml"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_audioselect_picker_handset.png.flat",
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\ic_audioselect_picker_handset.png"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land_dialer_video.xml.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-land\\dialer_video.xml"
-    },
-    {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pc_audio_mute_disabled_dark.xml.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\pc_audio_mute_disabled_dark.xml"
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
+        "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pc_audio_mute_disabled_dark.xml.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\pc_audio_mute_disabled_dark.xml"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout_contact_list_item.xml.flat",
@@ -772,12 +772,12 @@
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\pc_35mm_disabled.xml"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_list_item.xml.flat",
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\layout\\dialog_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_feature_exit_button_layout.xml.flat",
@@ -820,12 +820,12 @@
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\raw\\errortone.ogg"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pc_voicemail.xml.flat",
@@ -1008,12 +1008,12 @@
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -1108,12 +1108,12 @@
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\layout\\outgonig_call_item.xml"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout_incoming_call_audio_dialog.xml.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\layout\\incoming_call_audio_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout_incoming_call_audio_dialog.xml.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\layout\\incoming_call_audio_dialog.xml"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -1160,12 +1160,12 @@
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\layout-land\\fragment_recent_call_list.xml"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_persistent_audioselect_headset.png.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_persistent_audioselect_headset.png"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_persistent_audioselect_headset.png.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_persistent_audioselect_headset.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_persistent_audioselect_bluetooth.png.flat",
@@ -1184,20 +1184,20 @@
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_loading_spinner.png.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-mdpi\\ic_loading_spinner.png"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land_rounded_accepet_video_call.xml.flat",
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-land\\rounded_accepet_video_call.xml"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_persistent_block_video.png.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-mdpi\\ic_persistent_block_video.png"
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_loading_spinner.png.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-mdpi\\ic_loading_spinner.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_start_video48.png.flat",
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-mdpi\\ic_start_video48.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_persistent_block_video.png.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-mdpi\\ic_persistent_block_video.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land_rounded_incoming_call_popup.xml.flat",
@@ -1272,12 +1272,12 @@
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable\\transparent_rounded_rect.xml"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_persistent_audioselect_handset.png.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_persistent_audioselect_handset.png"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\raw_dialtone.ogg.flat",
         "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\raw\\dialtone.ogg"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_persistent_audioselect_handset.png.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\drawable-hdpi\\ic_persistent_audioselect_handset.png"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -2884,12 +2884,12 @@
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout_picking_contact_header.xml.flat",
-        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\layout\\picking_contact_header.xml"
-    },
-    {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\layout_picking_contact_header.xml.flat",
+        "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\layout\\picking_contact_header.xml"
     },
     {
         "merged": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_favorites_selected.png.flat",
