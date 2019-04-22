@@ -142,14 +142,7 @@ public final class R {
         public static final int initialActivityCount = 0x7f0400aa;
         public static final int isLightTheme = 0x7f0400ac;
         public static final int itemPadding = 0x7f0400af;
-        public static final int keylines = 0x7f0400b2;
         public static final int layout = 0x7f0400b3;
-        public static final int layout_anchor = 0x7f0400b5;
-        public static final int layout_anchorGravity = 0x7f0400b6;
-        public static final int layout_behavior = 0x7f0400b7;
-        public static final int layout_dodgeInsetEdges = 0x7f0400e3;
-        public static final int layout_insetEdge = 0x7f0400ec;
-        public static final int layout_keyline = 0x7f0400ed;
         public static final int listChoiceBackgroundIndicator = 0x7f0400f1;
         public static final int listDividerAlertDialog = 0x7f0400f2;
         public static final int listItemLayout = 0x7f0400f3;
@@ -206,7 +199,6 @@ public final class R {
         public static final int splitTrack = 0x7f04013b;
         public static final int srcCompat = 0x7f04013c;
         public static final int state_above_anchor = 0x7f04013e;
-        public static final int statusBarBackground = 0x7f040141;
         public static final int subMenuArrow = 0x7f040143;
         public static final int submitBackground = 0x7f040144;
         public static final int subtitle = 0x7f040145;
@@ -615,7 +607,6 @@ public final class R {
         public static final int ifRoom = 0x7f0a0141;
         public static final int image = 0x7f0a0142;
         public static final int info = 0x7f0a0152;
-        public static final int left = 0x7f0a0158;
         public static final int line1 = 0x7f0a015c;
         public static final int line3 = 0x7f0a015d;
         public static final int listMode = 0x7f0a0162;
@@ -633,7 +624,6 @@ public final class R {
         public static final int progress_circular = 0x7f0a01b5;
         public static final int progress_horizontal = 0x7f0a01b6;
         public static final int radio = 0x7f0a01b7;
-        public static final int right = 0x7f0a01d1;
         public static final int right_icon = 0x7f0a01d2;
         public static final int right_side = 0x7f0a01d3;
         public static final int screen = 0x7f0a01d4;
@@ -660,7 +650,6 @@ public final class R {
         public static final int src_atop = 0x7f0a01ff;
         public static final int src_in = 0x7f0a0200;
         public static final int src_over = 0x7f0a0201;
-        public static final int start = 0x7f0a0203;
         public static final int status_bar_latest_event_content = 0x7f0a0206;
         public static final int submenuarrow = 0x7f0a0208;
         public static final int submit_area = 0x7f0a0209;
@@ -1334,17 +1323,6 @@ public final class R {
         public static final int CompoundButton_android_button = 0;
         public static final int CompoundButton_buttonTint = 1;
         public static final int CompoundButton_buttonTintMode = 2;
-        public static final int[] CoordinatorLayout = { 0x7f0400b2, 0x7f040141 };
-        public static final int CoordinatorLayout_keylines = 0;
-        public static final int CoordinatorLayout_statusBarBackground = 1;
-        public static final int[] CoordinatorLayout_Layout = { 0x10100b3, 0x7f0400b5, 0x7f0400b6, 0x7f0400b7, 0x7f0400e3, 0x7f0400ec, 0x7f0400ed };
-        public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
-        public static final int CoordinatorLayout_Layout_layout_anchor = 1;
-        public static final int CoordinatorLayout_Layout_layout_anchorGravity = 2;
-        public static final int CoordinatorLayout_Layout_layout_behavior = 3;
-        public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 4;
-        public static final int CoordinatorLayout_Layout_layout_insetEdge = 5;
-        public static final int CoordinatorLayout_Layout_layout_keyline = 6;
         public static final int[] DrawerArrowToggle = { 0x7f040028, 0x7f040029, 0x7f040030, 0x7f04005e, 0x7f040086, 0x7f04009c, 0x7f040138, 0x7f04016b };
         public static final int DrawerArrowToggle_arrowHeadLength = 0;
         public static final int DrawerArrowToggle_arrowShaftLength = 1;

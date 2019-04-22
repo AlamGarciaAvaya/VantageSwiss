@@ -245,6 +245,7 @@ public class VideoManager {
      */
     public void setVideoMode(Call call, VideoMode videoMode) {
         if (null != call && call.getVideoMode() != videoMode) {
+
             call.setVideoMode(videoMode, new CallCompletionHandler() {
                 @Override
                 public void onSuccess() {

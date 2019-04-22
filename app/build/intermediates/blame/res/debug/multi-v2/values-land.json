@@ -4,23 +4,6 @@
             "outputFile": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a295c172864d70f87f887b17f64eac1a\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "142,212,276,347",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "207,271,342,410"
-                    }
-                },
-                {
                     "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\values-land\\values.xml",
                     "from": {
                         "startLines": "4,3,2",
@@ -55,6 +38,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\197762cf8a51a134fbc57814eede28fe\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "136",
+                        "startColumns": "4",
+                        "startOffsets": "6998",
+                        "endLines": "139",
+                        "endColumns": "12",
+                        "endOffsets": "7175"
+                    }
+                },
+                {
                     "source": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\src\\main\\res\\values-land\\styles.xml",
                     "from": {
                         "startLines": "3,23,18,25,352,293,71,79,62,51,56,45,303,298,27,308,13,31,39,288,141,313,181,185,188,176,203,213,227,207,220,193,216,198,210,223,257,248,114,100,120,336,268,279,126,133,93,87,231,236,241,320,107,148,154,160,167",
@@ -74,22 +76,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\2e1b8b20778a13339c826c2217f0b1c8\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\7496abb118d1e2fa22a0b332e2a619f8\\res\\values-land\\values-land.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "232"
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
                     },
                     "to": {
-                        "startLines": "136",
-                        "startColumns": "4",
-                        "startOffsets": "6998",
-                        "endLines": "139",
-                        "endColumns": "12",
-                        "endOffsets": "7175"
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "142,212,276,347",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "207,271,342,410"
                     }
                 }
             ]

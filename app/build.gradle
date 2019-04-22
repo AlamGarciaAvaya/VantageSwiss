@@ -15,7 +15,7 @@ def getDateAsMillis() {
 android {
 
     def versionPropsFile = file('version.properties')
-    def code = 1;
+    def code = 1
     if (versionPropsFile.canRead()) {
         def Properties versionProps = new Properties()
 
@@ -43,8 +43,8 @@ android {
         //noinspection OldTargetApi
         // 22 and not 23 in order to prevent requesting permissions at run-time
         targetSdkVersion 22
-        versionCode code
-        versionName "1.0" + "_" + code + "_" + formattedDate
+        versionCode 1
+        versionName "2.0" + "_" + code + "_" + formattedDate
         multiDexEnabled true
         setProperty("archivesBaseName", "Basic" +"_" +code +"_" + formattedDate )
 

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.avaya.android.vantage.devcala"
     android:versionCode="1"
-    android:versionName="1.0_1_20190416_1543" >
+    android:versionName="2.0_1_20190422_1720" >
 
     <uses-sdk
         android:minSdkVersion="23"
@@ -177,7 +177,7 @@
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.example.android.fileprovider"
+            android:authorities="com.avaya.android.vantage.devcala.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -200,10 +200,6 @@
             android:name="com.avaya.android.vantage.basic.RingerService"
             android:enabled="true"
             android:exported="false" />
-
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
 
         <meta-data
             android:name="android.support.VERSION"

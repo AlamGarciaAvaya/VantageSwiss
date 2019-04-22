@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: :DeskPhoneServices:@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e84058a4ef31378230f9cc57e4abce7a/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e84058a4ef31378230f9cc57e4abce7a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ca4a0d825744e6e6910c6f321df12fa/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ca4a0d825744e6e6910c6f321df12fa/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
