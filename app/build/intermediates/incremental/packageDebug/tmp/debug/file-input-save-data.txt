@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Apr 22 17:22:27 CDT 2019
+#Tue Apr 23 17:21:36 CDT 2019
 4.path=eula_v3_0_0_b.html
 8.set=NATIVE_RESOURCE
 6.path=lib/armeabi-v7a/libscpmedia.so
