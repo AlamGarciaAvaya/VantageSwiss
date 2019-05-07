@@ -356,5 +356,11 @@
         <item name="android:textColorPrimary">#ff535353</item>
     </style>
 
+    <style name="Theme.AppCompat.FullScreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
 
 </resources>

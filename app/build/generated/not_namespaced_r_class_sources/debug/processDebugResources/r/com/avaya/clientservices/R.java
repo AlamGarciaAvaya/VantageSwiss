@@ -13,6 +13,6 @@ public final class R {
         private drawable() {}
 
         public static final int cursor = 0x7f08006f;
-        public static final int pause = 0x7f08012c;
+        public static final int pause = 0x7f08013c;
     }
 }

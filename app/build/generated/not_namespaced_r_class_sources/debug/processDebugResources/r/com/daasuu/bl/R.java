@@ -12,32 +12,32 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int bl_arrowDirection = 0x7f040038;
-        public static final int bl_arrowHeight = 0x7f040039;
-        public static final int bl_arrowPosition = 0x7f04003a;
-        public static final int bl_arrowWidth = 0x7f04003b;
-        public static final int bl_bubbleColor = 0x7f04003c;
-        public static final int bl_cornersRadius = 0x7f04003d;
-        public static final int bl_strokeColor = 0x7f04003e;
-        public static final int bl_strokeWidth = 0x7f04003f;
+        public static final int bl_arrowDirection = 0x7f040042;
+        public static final int bl_arrowHeight = 0x7f040043;
+        public static final int bl_arrowPosition = 0x7f040044;
+        public static final int bl_arrowWidth = 0x7f040045;
+        public static final int bl_bubbleColor = 0x7f040046;
+        public static final int bl_cornersRadius = 0x7f040047;
+        public static final int bl_strokeColor = 0x7f040048;
+        public static final int bl_strokeWidth = 0x7f040049;
     }
     public static final class drawable {
         private drawable() {}
 
-        public static final int popup_window_transparent = 0x7f080148;
+        public static final int popup_window_transparent = 0x7f080158;
     }
     public static final class id {
         private id() {}
 
-        public static final int bottom = 0x7f0a003e;
-        public static final int left = 0x7f0a0158;
-        public static final int right = 0x7f0a01d1;
-        public static final int top = 0x7f0a022d;
+        public static final int bottom = 0x7f0a0046;
+        public static final int left = 0x7f0a0178;
+        public static final int right = 0x7f0a01f5;
+        public static final int top = 0x7f0a0257;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] BubbleLayout = { 0x7f040038, 0x7f040039, 0x7f04003a, 0x7f04003b, 0x7f04003c, 0x7f04003d, 0x7f04003e, 0x7f04003f };
+        public static final int[] BubbleLayout = { 0x7f040042, 0x7f040043, 0x7f040044, 0x7f040045, 0x7f040046, 0x7f040047, 0x7f040048, 0x7f040049 };
         public static final int BubbleLayout_bl_arrowDirection = 0;
         public static final int BubbleLayout_bl_arrowHeight = 1;
         public static final int BubbleLayout_bl_arrowPosition = 2;

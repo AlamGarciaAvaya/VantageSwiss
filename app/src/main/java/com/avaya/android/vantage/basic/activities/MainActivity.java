@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.KeyguardManager;
+import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.SearchManager;
@@ -55,7 +56,6 @@ import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.app.NotificationCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.telephony.PhoneNumberUtils;
@@ -89,6 +89,7 @@ import com.avaya.android.vantage.basic.R;
 import com.avaya.android.vantage.basic.Utils;
 import com.avaya.android.vantage.basic.VantageDBHelper;
 import com.avaya.android.vantage.basic.VantageDBHelper.VantageDBObserver;
+import com.avaya.android.vantage.basic.VideoActivity;
 import com.avaya.android.vantage.basic.adaptors.ICallControlsInterface;
 import com.avaya.android.vantage.basic.adaptors.IHookListener;
 import com.avaya.android.vantage.basic.adaptors.INameExtensionVisibilityInterface;
@@ -174,6 +175,7 @@ import okhttp3.Response;
 import static android.app.ActivityManager.LOCK_TASK_MODE_LOCKED;
 import static android.app.ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND;
 import static android.app.ActivityManager.RunningAppProcessInfo.IMPORTANCE_VISIBLE;
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
 import static com.avaya.android.vantage.basic.Constants.ALL;
 import static com.avaya.android.vantage.basic.Constants.CALL_ID;
 import static com.avaya.android.vantage.basic.Constants.CONFERENCE_REQUEST_CODE;
@@ -887,7 +889,7 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
 
 
         //Speech
-        final NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this);
+        final Notification.Builder mBuilder = new Notification.Builder(this);
 
 
 
@@ -929,10 +931,18 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
                 try {
                     mediaPlayer.setDataSource(mensaje);
                     mediaPlayer.prepareAsync();
-                } catch (IllegalArgumentException e) {
-                } catch (IllegalStateException e) {
-                } catch (IOException e) {
+                } catch (IllegalArgumentException | IllegalStateException | IOException e) {
                 }
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }).on("video", args -> {
+            final JSONObject obj = (JSONObject) args[0];
+            try {
+                mensaje = obj.getString("message");
+                Intent intent = new Intent(this, VideoActivity.class);
+                intent.putExtra(VideoActivity.ARG_VIDEO_URL, mensaje);
+                startActivity(intent);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -971,9 +981,7 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
                     }
                     mRecyclerView.smoothScrollToPosition(0);
                 });
-            } catch (JSONException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
+            } catch (JSONException | IOException e) {
                 e.printStackTrace();
             }
 
@@ -999,8 +1007,8 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
                 mBuilder.setSmallIcon(R.drawable.ic_check);
                 mBuilder.setContentTitle("Notificaciones");
                 mBuilder.setContentText(ttstext);
-                mBuilder.setPriority(NotificationCompat.PRIORITY_MAX);
-                mBuilder.setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
+                mBuilder.setPriority(Notification.PRIORITY_MAX);
+                mBuilder.setVisibility(Notification.VISIBILITY_PUBLIC);
                 mBuilder.setSound(uri);
 
                 Intent notificationIntent = new Intent(MainActivity.this.getApplicationContext(), MainActivity.class);
@@ -1033,8 +1041,8 @@ public class MainActivity extends AppCompatActivity implements DialerFragment.On
                 mBuilder.setSmallIcon(R.drawable.ic_check);
                 mBuilder.setContentTitle("Notificaciones");
                 mBuilder.setContentText(jsonObject.getJSONObject("data").getJSONArray("translations").getJSONObject(0).getString("translatedText"));
-                mBuilder.setPriority(NotificationCompat.PRIORITY_MAX);
-                mBuilder.setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
+                mBuilder.setPriority(Notification.PRIORITY_MAX);
+                mBuilder.setVisibility(Notification.VISIBILITY_PUBLIC);
                 mBuilder.setSound(uri);
                 Intent notificationIntent = new Intent(MainActivity.this.getApplicationContext(), MainActivity.class);
                 PendingIntent contentIntent = PendingIntent.getActivity(MainActivity.this.getApplicationContext(), 0, notificationIntent,

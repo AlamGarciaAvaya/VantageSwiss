@@ -197,10 +197,19 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".VideoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.FullScreen"
+            tools:targetApi="n" />
+
         <service
             android:name=".RingerService"
             android:enabled="true"
             android:exported="false"></service>
     </application>
+
 
 </manifest>

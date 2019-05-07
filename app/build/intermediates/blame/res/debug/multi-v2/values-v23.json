@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\garcia76\\StudioProjects\\VantageSwiss\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\7496abb118d1e2fa22a0b332e2a619f8\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a801d1e43936455b116057eba84da7cc\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\49306ad5a945c40e99eab925c1bbc07e\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\bd0dbe0e860505db1f6a1f274ec737da\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

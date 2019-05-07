@@ -3,7 +3,7 @@
     package="com.avaya.android.vantage.devcala"
     android:targetSandboxVersion="2"
     android:versionCode="1"
-    android:versionName="2.0_1_20190423_1718" >
+    android:versionName="2.0_1_20190506_1828" >
 
     <uses-sdk
         android:minSdkVersion="23"
@@ -196,15 +196,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.avaya.android.vantage.basic.VideoActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:exported="false"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true"
+            android:theme="@style/Theme.AppCompat.FullScreen" />
 
         <service
             android:name="com.avaya.android.vantage.basic.RingerService"
             android:enabled="true"
             android:exported="false" />
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="25.4.0" />
     </application>
 
 </manifest>

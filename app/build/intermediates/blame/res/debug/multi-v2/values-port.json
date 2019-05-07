@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "C:\\Users\\garcia76\\StudioProjects\\VantageSwiss\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\7496abb118d1e2fa22a0b332e2a619f8\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\a801d1e43936455b116057eba84da7cc\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

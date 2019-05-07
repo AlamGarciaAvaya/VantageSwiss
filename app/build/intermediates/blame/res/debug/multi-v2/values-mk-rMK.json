@@ -1,16 +1,33 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\garcia76\\StudioProjects\\VantageBasic-2.0.0.0.0412_no_google\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk-rMK\\values-mk-rMK.xml",
+            "outputFile": "C:\\Users\\garcia76\\StudioProjects\\VantageSwiss\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk-rMK\\values-mk-rMK.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\7496abb118d1e2fa22a0b332e2a619f8\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\7f8c7b404a5b221bab032204b6ee5e3b\\res\\values-mk-rMK\\values-mk-rMK.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,163,286,390,498,584,689,808,891,973,1060,1166,1273,1374,1481,1592,1696,1794,1878",
-                        "endColumns": "107,122,103,107,85,104,118,82,81,86,105,106,100,106,110,103,97,83,100",
-                        "endOffsets": "158,281,385,493,579,684,803,886,968,1055,1161,1268,1369,1476,1587,1691,1789,1873,1974"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,141,235",
+                        "endColumns": "85,93,82",
+                        "endOffsets": "136,230,313"
+                    },
+                    "to": {
+                        "startLines": "13,14,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "903,989,1083",
+                        "endColumns": "85,93,82",
+                        "endOffsets": "984,1078,1161"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\garcia76\\.gradle\\caches\\transforms-2\\files-2.1\\2b5d48327f3cda4bede291b082fc04fd\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,216,283,349,429,511,601,680,757,837",
+                        "endColumns": "87,72,66,65,79,81,89,78,76,79,65",
+                        "endOffsets": "138,211,278,344,424,506,596,675,752,832,898"
                     }
                 }
             ]
