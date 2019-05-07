@@ -2,6 +2,7 @@ package com.avaya.android.vantage.basic
 
 import android.app.Activity
 import android.app.PictureInPictureParams
+import android.content.Context
 import android.content.pm.PackageManager
 import android.content.res.Configuration
 import android.net.Uri
@@ -21,6 +22,10 @@ import com.google.android.exoplayer2.trackselection.TrackSelectionArray
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
 import com.google.android.exoplayer2.util.Util
 import kotlinx.android.synthetic.main.video_activity.*
+import android.support.v4.content.ContextCompat.startActivity
+import android.content.Intent
+
+
 
 class VideoActivity : AppCompatActivity() {
     companion object {
@@ -47,6 +52,10 @@ class VideoActivity : AppCompatActivity() {
         mUrl = intent.getStringExtra(ARG_VIDEO_URL)
 
         savedInstanceState?.let { videoPosition = savedInstanceState.getLong(ARG_VIDEO_POSITION) }
+
+        init_activity.setOnClickListener {
+            startNewActivity(this,"com.avaya.android.vantage.devcala")
+        }
     }
 
     override fun onStart() {
@@ -208,6 +217,21 @@ class VideoActivity : AppCompatActivity() {
         isPIPModeeEnabled = isInPictureInPictureMode
         if(!isInPictureInPictureMode){
             onBackPressed()
+        }
+    }
+
+    fun startNewActivity(context: Context, packageName: String) {
+        var intent = context.packageManager.getLaunchIntentForPackage(packageName)
+        if (intent != null) {
+            // We found the activity now start the activity
+            intent!!.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            context.startActivity(intent)
+        } else {
+            // Bring user to the market or let them choose an app?
+            intent = Intent(Intent.ACTION_VIEW)
+            intent!!.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            intent!!.data = Uri.parse("market://details?id=$packageName")
+            context.startActivity(intent)
         }
     }
 }
