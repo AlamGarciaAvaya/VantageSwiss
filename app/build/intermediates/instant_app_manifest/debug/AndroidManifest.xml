@@ -3,7 +3,7 @@
     package="com.avaya.android.vantage.devcala"
     android:targetSandboxVersion="2"
     android:versionCode="1"
-    android:versionName="2.0_1_20190506_1828" >
+    android:versionName="2.0_1_20190508_1137" >
 
     <uses-sdk
         android:minSdkVersion="23"

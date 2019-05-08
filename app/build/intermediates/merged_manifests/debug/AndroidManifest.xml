@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.avaya.android.vantage.devcala"
     android:versionCode="1"
-    android:versionName="2.0_1_20190506_1828" >
+    android:versionName="2.0_1_20190508_1137" >
 
     <uses-sdk
         android:minSdkVersion="23"

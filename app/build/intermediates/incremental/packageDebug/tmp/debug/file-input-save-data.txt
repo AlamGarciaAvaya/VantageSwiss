@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon May 06 18:31:04 CDT 2019
+#Wed May 08 11:40:38 CDT 2019
 4.path=lib/armeabi-v7a/libSonic.so
 8.set=ASSET
 6.path=lib/armeabi-v7a/libscpmedia.so
